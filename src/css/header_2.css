@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #692c12;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.yellow {
+  width: 100%;
+  height: 150px;
+  font-size: 12px;
+  background: none;
+  color: #692c12;
+  position: fixed; }
+  .yellow .top {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #030303;
+    display: none;
+    margin: 0 auto; }
+    .yellow .top .left {
+      width: 270px;
+      height: 30px;
+      margin-left: 280px;
+      display: inline-block;
+      float: left;
+      color: #692c12; }
+      .yellow .top .left .span1 {
+        display: inline-block;
+        margin-right: 20px; }
+      .yellow .top .left .span2 {
+        display: inline-block;
+        margin-right: 20px; }
+        .yellow .top .left .span2 .district {
+          width: 50px;
+          height: 50px;
+          background: #FFFFFF;
+          margin-left: 70px;
+          display: none; }
+          .yellow .top .left .span2 .district li {
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px; }
+          .yellow .top .left .span2 .district a {
+            color: #030303; }
+      .yellow .top .left .span3 {
+        padding-right: 5px; }
+      .yellow .top .left span a:hover {
+        color: #ffe100; }
+    .yellow .top .nav {
+      width: 440px;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 600px;
+      margin-top: 0; }
+      .yellow .top .nav li {
+        float: left;
+        padding-left: 5px; }
+      .yellow .top .nav li span {
+        font-weight: bold; }
+      .yellow .top .nav li a:hover {
+        color: #ffe100; }
+  .yellow .bottom {
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    font-size: 14px;
+    margin: 0 auto;
+    background: #ffd400; }
+    .yellow .bottom .nav2 {
+      width: 900px;
+      height: 120px;
+      line-height: 120px;
+     }
+      .yellow .bottom .nav2 li {
+        text-align: center;
+        float: left;
+        padding-right: 10px;
+        padding-left: 10px; }
+        .yellow .bottom .nav2 li a {
+          color: #692c12;
+          padding-left: 10px;
+          padding-right: 10px; }
+          .yellow .bottom .nav2 li a:hover {
+            border-bottom: 1px solid #692c12; }
+        .yellow .bottom .nav2 li img {
+          display: inline-block;
+          width: 65px;
+          height: 100px;
+          margin-top: 10px; }
+
+/*# sourceMappingURL=.yellow_2.css.map */
